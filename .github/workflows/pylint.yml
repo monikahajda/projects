@@ -29,3 +29,8 @@ jobs:
     - name: Run pylint
       run: pylint app.py  # Uruchamia Pylinta na pliku app.py
 
+    - name: Upload pylint results as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: pylint-report
+        path: pylint_report.txt  # Opcjonalnie, możesz zapisać wyniki do pliku
