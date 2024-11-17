@@ -22,7 +22,8 @@ jobs:
   
         pip install pylint
         pip install flask
-
+        pip install pytest
+>>>>>>> 0949bc05746fd2b4b4a51c9d2aac47dd6be6d9c9
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')

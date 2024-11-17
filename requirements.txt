@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 flask==3.0.3
 pylint==3.3.0
+=======
+flask~=3.0.3
+pylint
+>>>>>>> 0949bc05746fd2b4b4a51c9d2aac47dd6be6d9c9
