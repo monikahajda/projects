@@ -33,4 +33,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: pylint-report
-        path: pylint_report.txt  # Opcjonalnie, możesz zapisać wyniki do pliku
+        path: pylint_report.txt  # Opcjonalnie, możesz zapisać wyniki
